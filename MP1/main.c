@@ -3,9 +3,9 @@
 
 int main() {
 
-    FILE* f = fopen("DEV.txt", "r");
-    FILE* labels = fopen("DEV-labels.txt", "w+");
-    FILE* questions = fopen("DEV-questions.txt", "w+");
+    FILE* f = fopen("TRAIN.txt", "r");
+    FILE* labels = fopen("TRAIN-labels.txt", "w+");
+    FILE* questions = fopen("TRAIN-questions.txt", "w+");
     char c;
 
     while (c != EOF) {
