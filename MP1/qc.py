@@ -28,7 +28,6 @@ def read_labels(doc, fine):
 
     return labels
 
-#returns questions in a file has labels before questions
 def read_train_questions(doc):
 
     file = open(doc, "r")
